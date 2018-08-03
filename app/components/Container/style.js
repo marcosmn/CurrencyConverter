@@ -8,3 +8,4 @@ export default EStyleSheet.create({
     backgroundColor: '$primaryBlue',
   },
 });
+

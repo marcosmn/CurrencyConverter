@@ -58,3 +58,13 @@ export default StackNavigator(
     headerMode: 'none',
   },
 );
+
+
+
+
+
+
+
+
+
+

@@ -29,3 +29,5 @@ export const changeQuoteCurrency = currency => ({
 export const getInitialConversion = () => ({
   type: GET_INITIAL_CONVERSION,
 });
+
+

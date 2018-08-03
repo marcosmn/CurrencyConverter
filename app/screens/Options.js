@@ -25,6 +25,7 @@ class Options extends Component {
   handlePressSite = () => {
     Linking.openURL('telnet://fixer.io/').catch(() =>
       this.props.alertWithType('error', 'Sorry!', "Fixer.io can't be opened right now."));
+    // info, warn, error, success, custom
   };
 
   render() {
@@ -55,3 +56,4 @@ class Options extends Component {
 const mapStateToProps = state => ({ primaryColor: state.theme.primaryColor });
 
 export default connect(mapStateToProps)(connectAlert(Options));
+
